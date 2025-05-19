@@ -1,6 +1,6 @@
 #import "macros.typ"
 
-= Lezione3, Funzioni in più variabili
+= Funzioni in più variabili
 $ f:RR^n arrow.long RR $
 L'obiettivo è studiarne limiti, continuità e differenziabilità.
 

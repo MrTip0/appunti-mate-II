@@ -1,6 +1,6 @@
 #import "macros.typ"
 
-= Lezione 6, Punti stazionari per funzioni ristrette
+= Punti stazionari per funzioni ristrette
 *Problema* studiare i punti stazionari di una funzione di due variabili $f(x, y)$ ristretta alla curva di livello di una funzione $g(x, y)$ (*vincolo*).
 $ f(x, y) "ristretta a" g(x, y) = c $
 La soluzione diretta:

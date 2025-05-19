@@ -1,6 +1,6 @@
 #import "macros.typ"
 
-= Lezione 4, Sviluppo di taylor di una funzione in 2 variabili
+= Sviluppo di taylor di una funzione in 2 variabili
 Sia $f(x, y)$ una funzione.
 per fare lo sviluppo della serie lungo una determinata linea si può restringere la funzione lungo un segmento su quella linea.
 $ x(t) = x_0 + t(x - x_0) $

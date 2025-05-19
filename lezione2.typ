@@ -1,6 +1,6 @@
 #import "macros.typ"
 
-= Lezione 2, curve in $RR^n$
+= Curve in $RR^n$
 
 == $RR^n$
 $ RR^n = {(x_1, ..., x_n) | x_i in RR forall 1 <= i <= n} $

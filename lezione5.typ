@@ -1,6 +1,6 @@
 #import "macros.typ"
 
-= Lezione 5
+= Superfici
 == Superfici bidimensionali nello spazio tridimensionale
 $ D subset RR^2 --> RR^3, arrow(r)(s, t) = macros.vec(x(s,t), y(s,t), z(s,t), delim:"[") $
 $ arrow(r_s) = macros.vec(

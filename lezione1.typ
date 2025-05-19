@@ -1,6 +1,6 @@
 #import "macros.typ"
 
-= Lezione 1, accenni di GAL
+= Accenni di GAL
 == Lista Appelli
 + Gennaio
 + Febbraio
