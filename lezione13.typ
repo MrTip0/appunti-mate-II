@@ -52,3 +52,7 @@ $ = integral_a^b (F_1 (t, y_1 (t)) -   F_1 (t, y_2 (t))) d t = - integral_a^b (F
 $ = - integral_a^b d t integral_(y_1 (t))^(y_2 (t)) (diff F_1)/(diff y) d y $
 
 $ = - integral.double_sigma (diff F_1)/(diff y) d t d y $
+
+== Dimostrazione del #link(<pointcarre>, "Lemma di Pointcarré") <pointcarreproof>
+
+*TODO*

@@ -34,8 +34,10 @@ $ inter_(i=1)^n D_i $
 == Dominio semplicemente connesso
 _definizione_ Un dominio $D subset RR^n$ si dice semplicemente connesso se è connesso per archie per ogni curva chiusa regolare contenuta in $D$ è la frontiera di una regione interamente contenuta in $D$.
 
-== Lemma di Pointcarré
+== Lemma di Pointcarré <pointcarre>
 Sia $arrow(F)$ un campo vettoriale di classe C^1 (Le componenti di $arrow(F)$ e le loro derivate parziali prime sono continue) e il dominio di definizione di $arrow(F)$ è semplicemente connesso allora le seguenti affermazioni sono equivalenti:
 
 1. $arrow(F)$ è conservativo.
 2. $forall i, j in [1, dim(arrow(F))], (diff arrow(F_i))/(diff x_j) = (diff arrow(F_j))/(diff x_i)$.
+
+#link(<pointcarreproof>, text("dimostrazione al capitolo 13.3", style: "italic"))

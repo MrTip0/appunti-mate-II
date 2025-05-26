@@ -1,8 +1,12 @@
+// TODO: Dimostrazione del lemma di pointcarre alla lezione 13
+
 #set document(title: "Appunti Analisi II", author: "Nicolò Luigi Allegris")
 
 #set heading(numbering: "1.")
 
 #set text(font: "SF Arabic", lang: "it")
+
+#set par(justify: true)
 
 #show heading.where(level: 1) : it => {
   pagebreak()
@@ -26,3 +30,4 @@
 #include "lezione11.typ"
 #include "lezione12.typ"
 #include "lezione13.typ"
+#include "lezione14.typ"
