@@ -1,5 +1,3 @@
-// TODO: Dimostrazione del lemma di pointcarre alla lezione 13
-
 #set document(title: "Appunti Analisi II", author: "Nicolò Luigi Allegris")
 
 #set heading(numbering: "1.")

@@ -55,4 +55,12 @@ $ = - integral.double_sigma (diff F_1)/(diff y) d t d y $
 
 == Dimostrazione del #link(<pointcarre>, "Lemma di Pointcarré") <pointcarreproof>
 
-*TODO*
+Sia $arrow(F)$ un campo vettoriale definito su $D subset RR^2$ semplicemente connesso, per ogni curva chiusa $C$ su $D$ esiste una superficie $sigma$ completamente contenuta nell'insieme (per definizione) il cui confine è la curva $C$. La formula di green stabilisce quindi che i seguenti integrali sono uguali
+
+$ integral.cont_C arrow(F) dot arrow(t) d cal(l) = integral.double_sigma ( (diff F_2)/(diff x) - (diff F_1)/(diff y)) d x d y $
+
+Essendo inoltre validi i requisiti necessari per cui un campo vettoriale sia conservativo
+
+$ integral.cont_C arrow(F) dot arrow(t) d cal(l) = integral.double_sigma 0 d x d y = 0 $
+
+Pertanto per ogni curva chiusa definita lungo il campo vettoriale l'integrale di linea di seconda specie da risultato 0, che è una definizione equivalente di campo conservativo.
