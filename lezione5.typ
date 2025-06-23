@@ -76,7 +76,7 @@ Supponiamo che una funzione $F(x, y)$ abbia derivate parziali prime continue in 
 
 Allora $exists$ un intorno di $(x_0, y_0)$ tale che i punti $(x, y)$ che soddisfano l'equazione $F(x, y) = 0$ appartengono al grafico di una funzione $f(x)$, cioè
 
-$ exists f(x) "t.c." F(x, f(x)) $
+$ exists f(x) "t.c." F(x, f(x)) = 0 $
 
 in particolare $y_0 = f(x_0)$
 

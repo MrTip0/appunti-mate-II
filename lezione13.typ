@@ -27,10 +27,10 @@ dimostrazione della prima identità (la seconda è analoga)
 $ sigma = union_(i=1)^n sigma_i $
 
 vogliamo dimostrare che
-$ integral.cont_C_i F_1 d x = - integral.double_sigma_i (diff F_1)/(diff y) d d y $
+$ integral.cont_C_i F_1 d x = - integral.double_sigma_i (diff F_1)/(diff y) d x d y $
 
 che dimostrerebbe
-$ sum_(i=1)^n integral.cont_C_i F_1 d x = - sum_(i=1)^n integral.double_sigma_i (diff F_1)/(diff y) d d y $
+$ sum_(i=1)^n integral.cont_C_i F_1 d x = - sum_(i=1)^n integral.double_sigma_i (diff F_1)/(diff y) d x d y $
 
 che è equivalente a
 $ integral.cont_C F_1 d x = - integral.double_sigma (diff F_1)/(diff y) d x d y $
@@ -55,7 +55,7 @@ $ = - integral.double_sigma (diff F_1)/(diff y) d t d y $
 
 == Dimostrazione del #link(<pointcarre>, "Lemma di Pointcarré") <pointcarreproof>
 
-Sia $arrow(F)$ un campo vettoriale definito su $D subset RR^2$ semplicemente connesso, per ogni curva chiusa $C$ su $D$ esiste una superficie $sigma$ completamente contenuta nell'insieme (per definizione) il cui confine è la curva $C$. La formula di green stabilisce quindi che i seguenti integrali sono uguali
+Sia $arrow(F)$ un campo vettoriale definito su $D subset RR^2$ semplicemente connesso, per ogni curva chiusa $C$ su $D$ esiste una superficie $sigma$ completamente contenuta nell'insieme (per definizione) la cui frontiera è la curva $C$. La formula di green stabilisce quindi che i seguenti integrali sono uguali
 
 $ integral.cont_C arrow(F) dot arrow(t) d cal(l) = integral.double_sigma ( (diff F_2)/(diff x) - (diff F_1)/(diff y)) d x d y $
 

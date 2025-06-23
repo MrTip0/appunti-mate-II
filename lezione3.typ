@@ -86,7 +86,7 @@ $ (d F)/(d t) (t_0) = (d f(x(t), y(t)))/(d t)(0) =
 (diff f)/(diff x)(x_0, y_0) (d x)/(d t)(t_0) + (diff f)/(diff y)(x_0, y_0) (d y)/(d t)(t_0) $
 
 *Dim*
-$ f(x, y) = f(x_0, y_0) + (diff f)/(diff x) (x - x_0) + (diff f)/(diff y) (x_0, y_0)(y - y_0) + o(rho) $
+$ f(x, y) = f(x_0, y_0) + (diff f)/(diff x)(x_0, y_0) (x - x_0) + (diff f)/(diff y) (x_0, y_0)(y - y_0) + o(rho) $
 $ f(x(t), y(t)) = f(x(t_0), y(t_0)) + (diff f)/(diff x)(x_0, y_0)(x(t) - x(t_0)) + (diff f)/(diff y)(x_0, y_0)(y(t) - y(t_0)) + o(rho) $
 $ (f(x(t), y(t)) - f(x(t_0), y(t_0)))/(Delta t) = (diff f)/(diff x)(x_0, y_0) (x(t) - x(t_0))/(Delta t) + (diff f)/(diff y)(x_0, y_0) (y(t) - y(t_0))/(Delta t) + o(rho)/(Delta t) $
 $ lim_(Delta t |-> 0)(f(x(t), y(t)) - f(x(t_0), y(t_0)))/(Delta t) = lim_(Delta t |-> 0) (diff f)/(diff x)(x_0, y_0) (x(t) - x(t_0))/(Delta t) + lim_(Delta t |-> 0) (diff f)/(diff y)(x_0, y_0) (y(t) - y(t_0))/(Delta t) + lim_(Delta t |-> 0) o(rho)/(Delta t) $

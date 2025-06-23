@@ -81,14 +81,14 @@ in coordinate cilindriche
 $ integral_0^(pi/2) d theta integral_0^1 d r integral_(r^2)^1 z r^3 sin theta cos theta d z $
 
 == Coordinate sferiche
-$x = r cos theta cos phi, y = r cos theta sin phi, z = r sin theta$
+$x = r cos theta cos phi, y = r cos theta sin phi, z = r sin phi$
 con $r >= 0, - pi/2 <= theta <= pi/2, 0 <= phi <= 2 pi$
 
 $ abs(det J) = abs(det macros.mat(
   cos theta cos phi, - r sin theta cos phi, -r cos theta sin phi;
   cos theta sin phi, -r sin theta sin phi, r cos theta cos phi;
-  sin theta, cos theta, 0
-))  = abs(- r^2 cos theta) = r^2 cos theta $
+  sin phi, r cos phi, 0
+)) = abs(- r^2 cos theta) = r^2 cos theta $
 
 $ integral.triple_D f(x, y, z) d x d y d z = integral.triple_Omega f(r cos theta cos phi, r cos theta sin phi, r sin theta) r^2 cos theta d r d theta d phi $
 
