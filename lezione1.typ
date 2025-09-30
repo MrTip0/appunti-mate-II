@@ -117,7 +117,6 @@ Sia
 $ A = mat(a_(11), a_(12); a_(21), a_(22)) $
 $ det(A) = a_(11) a_(22) - a_(12) a_(21) $
 $ det(A) = 0 arrow.l.r.double exists c | a_1 = c a_2 $
-*VAI A CERCARE LA DIMOSTRAZIONE*
 
 === Regola di Cramer
 $det(A) != 0$
@@ -304,5 +303,3 @@ $ macros.vec(
     w_1, w_2, w_3;
     z_1, z_2, z_3
 ) $
-
-sono un sacco di passaggi ma è molto semplice.
